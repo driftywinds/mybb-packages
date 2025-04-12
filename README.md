@@ -16,7 +16,7 @@ sudo chown -R www-data:www-data ./mybb
 sudo chmod -R 777 ./mybb
 ```
 
-3. Use this docker file as a template (change values according to your setup): - 
+3. Use this compose file as a template (change values according to your setup): - 
 
 ```
 services:
