@@ -79,7 +79,7 @@ RUN set -ex; \
 	curl -o mybb.tar.gz -fSL "https://github.com/mybb/mybb/archive/refs/tags/mybb_1839.tar.gz"; \
 	tar -xzf mybb.tar.gz -C /usr/src/; \
 	rm mybb.tar.gz; \
-	chown -R www-data:www-data /usr/src/mybb-mybb_${MYBB_VERSION}
+	chown -R www-data:www-data /usr/src/mybb-mybb_1839
 
 COPY docker-entrypoint.sh /usr/local/bin/
 
